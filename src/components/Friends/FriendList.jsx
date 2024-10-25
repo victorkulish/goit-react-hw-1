@@ -1,5 +1,5 @@
-import css from './Friends.module.css';
-import PropTypes from 'prop-types';
+import css from "./friends.module.css";
+import PropTypes from "prop-types";
 
 export const FriendList = ({ friends }) => {
   // console.log(friends);

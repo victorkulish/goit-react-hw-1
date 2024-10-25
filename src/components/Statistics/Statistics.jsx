@@ -1,17 +1,17 @@
-import css from './Statistics.module.css';
-import propTypes from 'prop-types';
+import css from "./statistics.module.css";
+import propTypes from "prop-types";
 
 const createColor = () => {
   const color =
-    'rgba(' +
+    "rgba(" +
     Math.round(Math.random() * 255) +
-    ',' +
+    "," +
     Math.round(Math.random() * 255) +
-    ',' +
+    "," +
     Math.round(Math.random() * 255) +
-    ',' +
+    "," +
     0.5 +
-    ')';
+    ")";
 
   return color;
 };
