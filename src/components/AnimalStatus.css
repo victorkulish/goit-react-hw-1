@@ -1,0 +1,25 @@
+.animal-status {
+  display: flex;
+  gap: 10px;
+}
+
+.animal-card {
+  border: 1px solid #ddd;
+  text-align: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.animal-card.online .status {
+  color: green;
+}
+
+.animal-card.offline .status {
+  color: red;
+}
+
+.animal-avatar {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+}
